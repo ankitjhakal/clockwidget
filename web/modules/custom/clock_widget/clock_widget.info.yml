@@ -1,0 +1,5 @@
+name: 'Clock Widget'
+type: module
+description: 'Module for Custom Clock Widget.'
+package: Custom
+core_version_requirement: ^10

@@ -1,0 +1,21 @@
+uuid: 20473ac3-c7b6-436e-bdef-a1b7921c47ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - clock_widget
+  theme:
+    - olivero
+id: olivero_estclockblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: clock_block
+settings:
+  id: clock_block
+  label: 'EST Clock Block'
+  label_display: visible
+  provider: clock_widget
+  timezone: est
+visibility: {  }

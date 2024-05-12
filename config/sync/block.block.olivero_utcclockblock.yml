@@ -1,0 +1,21 @@
+uuid: 5309e429-2c69-4894-b96f-1849f23e29ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - clock_widget
+  theme:
+    - olivero
+id: olivero_utcclockblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: clock_block
+settings:
+  id: clock_block
+  label: 'UTC Clock Block'
+  label_display: visible
+  provider: clock_widget
+  timezone: utc
+visibility: {  }

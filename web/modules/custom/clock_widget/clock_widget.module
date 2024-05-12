@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Contains general hook definitions and helper functions.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function clock_widget_theme() {
+  return [
+    'clock_block' => [
+      'variables' => ['unique_id' => NULL],
+    ],
+  ];
+}
+
+

@@ -1,0 +1,29 @@
+font:
+  css:
+    theme:
+      //fonts.googleapis.com: { type: external}
+      //fonts.gstatic.com: { type: external}
+      //fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap: { type: external}
+
+clock-widget:
+  js:
+    js/clock-widget.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+
+clock-widget-est:
+  css:
+    theme:
+      css/est-clock-widget.css: {}
+      css/common-clock.css: {}
+  dependencies:
+    - clock_widget/font
+
+clock-widget-utc:
+  css:
+    theme:
+      css/utc-clock-widget.css: {}
+      css/common-clock.css: {}
+  dependencies:
+    - clock_widget/font
