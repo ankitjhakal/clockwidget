@@ -13,6 +13,9 @@ function clock_widget_theme() {
     'clock_block' => [
       'variables' => ['unique_id' => NULL],
     ],
+    'clock_widget_block' => [
+      'variables' => ['cont' => '', 'city' => ''],
+    ],
   ];
 }
 

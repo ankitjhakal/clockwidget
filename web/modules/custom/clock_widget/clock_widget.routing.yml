@@ -1,0 +1,7 @@
+clock_widget.get_clock:
+  path: '/get-clock/{cont}/{city}'
+  defaults:
+    _controller: '\Drupal\clock_widget\Controller\GetClockController::getTime'
+    _title: 'Function to get time'
+  requirements:
+    _permission: 'access content'

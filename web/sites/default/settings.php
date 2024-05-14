@@ -779,3 +779,5 @@ if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $settings['config_sync_directory'] = '../config/sync';
+$conf['error_level'] = 1;
+$config['system.logging']['error_level'] = 'verbose';
