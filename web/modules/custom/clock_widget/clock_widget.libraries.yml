@@ -12,7 +12,14 @@ clock-widget:
     - core/jquery
     - core/jquery.once
 
-clock-widget-est:
+clock-time:
+  js:
+    js/clock-time.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+
+clock-widget-Amsterdam:
   css:
     theme:
       css/est-clock-widget.css: {}
@@ -20,7 +27,7 @@ clock-widget-est:
   dependencies:
     - clock_widget/font
 
-clock-widget-utc:
+clock-widget-Los_Angeles:
   css:
     theme:
       css/utc-clock-widget.css: {}
